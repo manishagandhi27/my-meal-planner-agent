@@ -1,5 +1,5 @@
 from  main.graph.graph_state import MealPlannerState
-from main.services.user_profile_db import get_user_profile
+from main.services.db.user_profile_db import get_user_profile
 
 
 

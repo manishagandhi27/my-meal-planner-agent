@@ -2,7 +2,7 @@
 from .meal_state import MealPlanningSubgraph
 import time
 import random
-from myagent.main.services.llm_api import generate_meal_suggestion
+from main.services.tools.llm_api import generate_meal_suggestion
 
 
 async def generate_breakfast(state):

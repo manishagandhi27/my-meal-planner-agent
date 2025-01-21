@@ -1,4 +1,4 @@
-# from user_profile_db import create_user_profile, get_user_profile, insert_user_profile
+
 import sqlite3
 import os
 
@@ -13,17 +13,3 @@ def get_db_connection():
     return conn
     
 
-
-   
-
-# create_user_profile()
-
-# # Insert a sample user profile
-# insert_user_profile(
-#     name="Manisha G",
-#     height=5.1,
-#     weight=125,
-#     goal="weight_loss"
-# )
-
-# print("User profile inserted successfully!")

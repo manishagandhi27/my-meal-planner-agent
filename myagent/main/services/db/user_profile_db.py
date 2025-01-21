@@ -63,14 +63,3 @@ def get_user_profile():
     return None  # Return None if no user profile exists
 
 
-
-# if __name__ == "__main__":
-#     create_pantry_table()
-#     print("Pantry table initilized")
-#     # add_ingredient("Firm Tofu", 3, "pack", "fridge")
-#     # add_ingredient("Soft tofu", 1, "pack", "fridge")
-#     # add_ingredient("quinoa", 1, "pack", "pantry")
-#     # add_ingredient("brown rice", 500, "grams", "pantry")
-#     result = get_pantry()
-#     print(result)
-    

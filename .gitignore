@@ -1,3 +1,10 @@
 .env
 __pycache__/
 .langgraph_api/
+token.pickle
+credentials.json
+main/service/credentials.json
+main/service/token.pickle
+myagent/data
+myagent/main/data
+myagent/main/serivces/data

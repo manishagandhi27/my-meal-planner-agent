@@ -4,7 +4,7 @@ import logging
 from main.graph.nodes.gather_inputs import validate_inputs
 from myagent.main.graph.subgraphs.meal_generator.generate_meal import get_meal_subgraph
 from langgraph.checkpoint.sqlite import SqliteSaver
-from myagent.main.services.init_db import get_db_connection
+from main.services.db.init_db import get_db_connection
 import sqlite3
 
 from myagent.main.graph.nodes.get_feedback import  get_feedback
@@ -13,7 +13,7 @@ from myagent.main.graph.nodes.notify_user import notify_user
 from myagent.main.graph.graph_state import MealPlannerState
 
 meal_generation_graph = get_meal_subgraph()
-checkpointer = SqliteSaver(get_db_connection())
+#checkpointer = SqliteSaver(get_db_connection())
 
 def feedback_router(state):
     """

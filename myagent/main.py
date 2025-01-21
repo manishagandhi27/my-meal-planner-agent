@@ -4,7 +4,7 @@ from main.graph.subgraphs.meal_generator import graph
 import asyncio
 
 
-# Done so this can run in parallel
+# Run graph without langgraph dev server or langgraph studio
 async def call_reflection(state: MealPlannerState):
     
     result = await graph.ainvoke(initial_state)
@@ -20,5 +20,5 @@ if __name__ == "__main__":
       
     }
 
-    result = asyncio.run(call_reflection(initial_state))
+result = asyncio.run(call_reflection(initial_state))
   
